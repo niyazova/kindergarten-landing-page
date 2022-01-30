@@ -84,6 +84,278 @@ header {
     font-size: 36px;
     color: #fff;
 }
+
+.main1 {
+    background: url(../assets/img2.jpg);
+    height: 100vh;
+    width: 100%;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+.cart {
+    background: #94b427;
+    height: 400px;
+    width: 270px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#program {
+    background: #f0d100;
+}
+#classes {
+    background: #fb678e;
+}
+#gallery {
+    background:  #008ad1;
+}
+.cart__img {
+    background-color: chocolate;
+    height: 155px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.cart-1 {
+    background-image: url(../assets/1.jpg);
+}
+.cart-2 {
+    background-image: url(../assets/4.jpg);
+}
+.cart-3 {
+    background-image: url(../assets/3.jpg);
+}
+.cart-4 {
+    background-image: url(../assets/7.jpg);
+}
+.cart p {
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+}
+.cart h2 {
+    color: #fff;
+    margin: 20px 70px;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 35px;
+}
+.cart__link {
+    background-color: #fff;
+    color: #BAB8B6;
+    padding: 5px 15px;
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.body1 {
+    height: 600px;
+    background-color: #89b730;
+}
+.body__box {
+    display: flex;
+	justify-content: space-between;
+    padding-top: 50px;
+
+}
+.body__title {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 54px;
+    color: #fff;
+    font-weight: 500px;
+    padding-bottom: 15px;
+}
+.body__subtitle {
+    color: rgb(228, 220, 220);
+    font-size: 25px;
+    width: 550px;
+    font-weight: 240px; 
+    padding-bottom: 23px;  
+}
+.body__icons {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+#icons__text {
+    position: relative;
+    left: 30px;
+    bottom: 23px;
+    color: #fff;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+.body__img1 {
+    position: absolute;
+    left: 900px;
+    top: 1400px;
+    border-radius: 50%;
+    height: 330px;
+    width: 330px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 6px;
+}
+.body__img2 {
+    position: relative;
+    bottom: 30px;
+    right: 175px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 6px;
+    object-fit: cover;
+}
+.body__img3 {
+    position: relative;
+    top: 290px;
+    right: 300px;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 6px;
+    object-fit: cover;
+    z-index: 1;
+}
+.dur {
+    background-image: url(../assets/3.jpg);
+    min-height: 100%;
+    background-attachment: fixed;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* <-----------section staff---------> */
+.staff {
+    height: 550px;
+    background-color: #fb678e;
+}
+.staff h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 50px;
+    padding-top: 60px;
+    padding-bottom: 10px; 
+    text-align: center;
+}
+.staff p {
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    font-size: 15px;
+    font-weight: 500px;
+}
+.staff__img {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#staff {
+    border-radius: 50%;
+    height: 155px;
+    width: 160px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 6px;
+    object-fit: cover;
+}
+#staff:hover {
+    border-color: yellow;
+    transition: 0.3s;
+}
+#teacher {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    font-size: 21px; 
+    padding-top: 12px;
+}
+/* -------------section video--------- */
+.video {
+    height: 580px;
+    background-color: #008ad1;
+}
+.video h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 60px;
+    color: #fff;
+    font-weight: 900;
+    padding-top: 60px;
+    padding-bottom: 10px; 
+    text-align: center;
+}
+.video__img {
+    display: flex;
+    justify-content: space-around;
+}
+#video__img {
+    height: 150px;
+    width: 230px;
+    border-radius: 5%;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+/*-------- section contact--------- */
+.contact {
+    height: 600px;
+    background-color: #fff;
+}
+.contact h1 {
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 60px;
+    color: #008ad1;
+    font-weight: 900;
+    padding-top: 55px;
+    padding-bottom: 10px; 
+    text-align: center;
+}
+.contact__boxs {
+    display: flex;
+    justify-content: space-between;
+}
+.contact__box1 {
+    width: 440px;
+}
+.contact__title1 {
+    font-family: 'Indie Flower', cursive;
+    color: #89b730;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.contact__subtitle1 {
+    display: flex;
+    justify-content: space-between;
+    color: #818181;
+    margin-bottom: 30px;
+}
+.contact__title2 {
+    font-family: 'Indie Flower', cursive;
+    color: #89b730;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    position: relative;
+    right: 320px;
+}
+.contact__subtitle1 a {
+    color: black;
+}
+#contact__img {
+    height: 240px;
+    width: 460px;
+    border-radius: 5%;
+}
+
+/* ------footer------ */
 footer {
     background-color: black;
     height: 300px;
