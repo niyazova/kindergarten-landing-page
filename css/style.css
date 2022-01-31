@@ -268,7 +268,7 @@ header {
     object-fit: cover;
 }
 #staff:hover {
-    border-color: yellow;
+    border: 10px solid yellow;
     transition: 0.3s;
 }
 #teacher {
